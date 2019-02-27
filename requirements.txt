@@ -1,0 +1,10 @@
+chardet==3.0.4
+dlib==19.16.0
+face-recognition==1.2.3
+face-recognition-models==0.3.0
+idna==2.8
+msgpack==0.6.1
+msgpack-numpy==0.4.4.2
+numpy==1.16.1
+requests==2.21.0
+urllib3==1.24.1
