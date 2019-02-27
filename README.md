@@ -4,7 +4,17 @@ There was used great [face_recognition](https://github.com/ageitgey/face_recogni
 
 # Deploy
 
-Before the usage script should be deployed to the docker registry, the user also should have the `contract_developer` permission.
+Before the usage script should be deployed to the docker registry. For testing, you can start a local docker registry using
+
+```
+docker run -d -p 5000:5000 --name registry registry:2
+docker build -t $(basename "$PWD") .
+docker image tag $(basename "$PWD") localhost:5000/$(basename "$PWD")
+docker push localhost:5000/$(basename "$PWD")
+```
+
+You should use a docker repository that is accessible to all members of your network.
+Your vostok address also should have the `contract_developer` permission to create the contract.
 
 # Init
 
