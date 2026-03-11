@@ -2,7 +2,7 @@ chardet==3.0.4
 dlib==19.16.0
 face-recognition==1.2.3
 face-recognition-models==0.3.0
-idna==2.8
+idna==3.7
 msgpack==0.6.1
 msgpack-numpy==0.4.4.2
 numpy==1.22.0
