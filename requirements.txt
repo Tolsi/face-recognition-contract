@@ -6,5 +6,5 @@ idna==2.8
 msgpack==0.6.1
 msgpack-numpy==0.4.4.2
 numpy==1.22.0
-requests==2.21.0
+requests==2.33.0
 urllib3==1.26.5
